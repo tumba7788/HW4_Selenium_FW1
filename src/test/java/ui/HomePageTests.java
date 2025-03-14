@@ -3,8 +3,6 @@ package ui;
 import org.junit.jupiter.api.*;
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.CsvFileSource;
-import org.junit.platform.commons.logging.Logger;
-import org.junit.platform.commons.logging.LoggerFactory;
 import org.openqa.selenium.By;
 import org.openqa.selenium.TimeoutException;
 import org.openqa.selenium.WebDriver;
@@ -12,21 +10,13 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
-
-import java.io.*;
 import java.time.Duration;
 import java.util.List;
-
 import java.io.FileWriter;
 import java.io.IOException;
-import java.nio.file.WatchEvent;
-import java.time.Duration;
-import java.util.ArrayList;
-import java.util.List;
 import java.util.NoSuchElementException;
 
 public class HomePageTests {
-    private static final Logger logger = LoggerFactory.getLogger(HomePageTests.class); // Нужно для логирования, для вывода List на печать
     WebDriver driver;
     private static final String BASE_URL = "https://bonigarcia.dev/selenium-webdriver-java/";
 
@@ -44,7 +34,7 @@ public class HomePageTests {
 
     @ParameterizedTest
     @CsvFileSource(resources = "/testdata.csv", numLinesToSkip = 1)
-    void checkChapterTitlesTest(String chapterName, String linkText){
+    void checkChapterTitlesTest(String chapterName){
 
         // 1 проверяем название раздела
         WebElement chapterTitle = driver.findElement(By.xpath("//div/h5[text() = '"+ chapterName +"']")); //div/h5[text() = 'Chapter 3. WebDriver Fundamentals']
