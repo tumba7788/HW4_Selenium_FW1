@@ -1,0 +1,28 @@
+chapterName,linkUrl,homePageButtonName,titlesLinkedHomePages,isFrame
+Chapter 3. WebDriver Fundamentals,https://bonigarcia.dev/selenium-webdriver-java/web-form.html,Web form,Web form,FALSE
+Chapter 3. WebDriver Fundamentals,https://bonigarcia.dev/selenium-webdriver-java/navigation1.html,Navigation,Navigation example,FALSE
+Chapter 3. WebDriver Fundamentals,https://bonigarcia.dev/selenium-webdriver-java/dropdown-menu.html,Dropdown menu,Dropdown menu,FALSE
+Chapter 3. WebDriver Fundamentals,https://bonigarcia.dev/selenium-webdriver-java/mouse-over.html,Mouse over,Mouse over,FALSE
+Chapter 3. WebDriver Fundamentals,https://bonigarcia.dev/selenium-webdriver-java/drag-and-drop.html,Drag and drop,Drag and drop,FALSE
+Chapter 3. WebDriver Fundamentals,https://bonigarcia.dev/selenium-webdriver-java/draw-in-canvas.html,Draw in canvas,Drawing in canvas,FALSE
+Chapter 3. WebDriver Fundamentals,https://bonigarcia.dev/selenium-webdriver-java/loading-images.html,Loading images,Loading images,FALSE
+Chapter 3. WebDriver Fundamentals,https://bonigarcia.dev/selenium-webdriver-java/slow-calculator.html,Slow calculator,Slow calculator,FALSE
+Chapter 4. Browser-Agnostic Features,https://bonigarcia.dev/selenium-webdriver-java/long-page.html,Long page,This is a long page,FALSE
+Chapter 4. Browser-Agnostic Features,https://bonigarcia.dev/selenium-webdriver-java/infinite-scroll.html,Infinite scroll,Infinite scroll,FALSE
+Chapter 4. Browser-Agnostic Features,https://bonigarcia.dev/selenium-webdriver-java/shadow-dom.html,Shadow DOM,Shadow DOM,FALSE
+Chapter 4. Browser-Agnostic Features,https://bonigarcia.dev/selenium-webdriver-java/cookies.html,Cookies,Cookies,FALSE
+Chapter 4. Browser-Agnostic Features,https://bonigarcia.dev/selenium-webdriver-java/frames.html,Frames,Frames,TRUE
+Chapter 4. Browser-Agnostic Features,https://bonigarcia.dev/selenium-webdriver-java/iframes.html,IFrames,IFrame,FALSE
+Chapter 4. Browser-Agnostic Features,https://bonigarcia.dev/selenium-webdriver-java/dialog-boxes.html,Dialog boxes,Dialog boxes,FALSE
+Chapter 4. Browser-Agnostic Features,https://bonigarcia.dev/selenium-webdriver-java/web-storage.html,Web storage,Web storage,FALSE
+Chapter 5. Browser-Specific Manipulation,https://bonigarcia.dev/selenium-webdriver-java/geolocation.html,Geolocation,Geolocation,FALSE
+Chapter 5. Browser-Specific Manipulation,https://bonigarcia.dev/selenium-webdriver-java/notifications.html,Notifications,Notifications,FALSE
+Chapter 5. Browser-Specific Manipulation,https://bonigarcia.dev/selenium-webdriver-java/get-user-media.html,Get user media,Get user media,FALSE
+Chapter 5. Browser-Specific Manipulation,https://bonigarcia.dev/selenium-webdriver-java/multilanguage.html,Multilanguage,Multilanguage page,FALSE
+Chapter 5. Browser-Specific Manipulation,https://bonigarcia.dev/selenium-webdriver-java/console-logs.html,Console logs,Console logs,FALSE
+Chapter 7. The Page Object Model (POM),https://bonigarcia.dev/selenium-webdriver-java/login-form.html,Login form,Login form,FALSE
+Chapter 7. The Page Object Model (POM),https://bonigarcia.dev/selenium-webdriver-java/login-slow.html,Slow login,Slow login form,FALSE
+Chapter 8. Testing Framework Specifics,https://bonigarcia.dev/selenium-webdriver-java/random-calculator.html,Random calculator,Random calculator,FALSE
+Chapter 9. Third-Party Integrations,https://bonigarcia.dev/selenium-webdriver-java/download.html,Download files,Download files,FALSE
+Chapter 9. Third-Party Integrations,https://bonigarcia.dev/selenium-webdriver-java/ab-testing.html,A/B Testing,A/B Testing,FALSE
+Chapter 9. Third-Party Integrations,https://bonigarcia.dev/selenium-webdriver-java/data-types.html,Data types,Data types,FALSE

@@ -1,0 +1,27 @@
+Web form
+Navigation example
+Dropdown menu
+Mouse over
+Drag and drop
+Drawing in canvas
+Loading images
+Slow calculator
+This is a long page
+Infinite scroll
+Shadow DOM
+Cookies
+Frames
+IFrame
+Dialog boxes
+Web storage
+Geolocation
+Notifications
+Get user media
+Multilanguage page
+Console logs
+Login form
+Slow login form
+Random calculator
+Download files
+A/B Testing
+Data types
