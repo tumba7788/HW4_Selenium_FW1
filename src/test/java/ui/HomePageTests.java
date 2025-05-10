@@ -24,7 +24,7 @@ public class HomePageTests {
     void setUp(){
         driver = new ChromeDriver();
         driver.get(BASE_URL); //передать адрес домашней страницы
-        driver.manage().window().maximize(); //открыть браузер во весь экран
+        //driver.manage().window().maximize(); //открыть браузер во весь экран
     }
 
     @AfterEach
