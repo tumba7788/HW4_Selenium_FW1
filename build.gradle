@@ -19,4 +19,5 @@ dependencies {
 test {
     useJUnitPlatform()  // Использование JUnit Platform для запуска тестов
     maxParallelForks = 4 // Количество потоков для параллельного запуска тестов
+    systemProperties(System.getProperties())
 }
