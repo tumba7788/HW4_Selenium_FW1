@@ -1,5 +1,6 @@
 plugins {
     id 'java'
+    id("io.qameta.allure") version "2.12.0"
 }
 
 group = 'Danilova'
@@ -14,9 +15,11 @@ dependencies {
     testImplementation 'org.junit.jupiter:junit-jupiter'
 
     testImplementation 'org.seleniumhq.selenium:selenium-java:latest.release'
+    implementation 'io.qameta.allure:allure-rest-assured:2.29.1'
 }
 
 test {
     useJUnitPlatform()  // Использование JUnit Platform для запуска тестов
     maxParallelForks = 4 // Количество потоков для параллельного запуска тестов
+    systemProperties(System.getProperties())
 }
