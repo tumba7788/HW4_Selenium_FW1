@@ -1,6 +1,7 @@
 package ui;
 
 import org.junit.jupiter.api.*;
+import io.qameta.allure.Allure;
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.CsvFileSource;
 import org.openqa.selenium.By;
@@ -40,8 +41,8 @@ public class HomePageTests {
 
     private void initDriver(){
         String remoteUrl = System.getenv("SELENIUM_REMOTE_URL");
-        System.out.println("SELENIUM_REMOTE_URL = " + remoteUrl);
-        if (remoteUrl != null || !remoteUrl.isEmpty()) {
+        Allure.addAttachment("remote", remoteUrl);
+        if (remoteUrl != null) {
             ChromeOptions options = new ChromeOptions();
             options.addArguments("--headless");  // Add headless mode
             options.addArguments("--disable-gpu"); // Switch off GPU, because we don't need it in headless mode
